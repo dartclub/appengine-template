@@ -1,10 +1,10 @@
 import 'dart:io';
 import 'package:appengine/appengine.dart';
-import 'package:content_scrapers/router.dart';
+import 'package:appengine_template/router.dart';
 
 main() async {
-  //await runAppEngine(requestHandler);
-  test();
+  await runAppEngine(requestHandler);
+  // test(); for local testing
 }
 
 test() async {
